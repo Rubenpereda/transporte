@@ -102,3 +102,65 @@ h2{
     display: block;
     text-align: center;
 }
+
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+.persona{
+    width: 18%;
+    border:  1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.persona img{
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px black;
+}
+
+.persona h5,
+.persona h6{
+    margin: 0;
+    color: #2e54a1;
+    font-weight: normal;
+}
+/*fin nosotros*/
+ /*Inicio contacto*/
+ .contacto{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .contacto div{
+    width: 100%;
+ }
+
+ .datos p{
+    font-size: 14px;
+ }
+
+ .datos ul li{
+    font-size: 13px;
+    list-style: none;
+ }
+
+.formulario p{
+    display: flex;
+}
+ .formulario p input,
+ .formulario textarea{
+    width: 70%;
+ }
+
+ .formulario p label{
+    width: 80px;
+ }
+ 
+ /*fin contacto*/
